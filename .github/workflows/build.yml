@@ -31,6 +31,6 @@ jobs:
       run: dotnet tool install --global dotnet-validate --version 0.0.1-preview.304
     - name: Validate
       run: dotnet-validate package local src/Elmah.Io.Client.Extensions.Correlation/bin/Release/Elmah.Io.Client.Extensions.Correlation.4.0.${{ github.run_number }}-pre.nupkg
-    #- name: Push
-    #  run: dotnet nuget push src/Elmah.Io.Client.Extensions.Correlation/bin/Release/Elmah.Io.Client.Extensions.Correlation.4.0.${{ github.run_number }}-pre.nupkg --api-key ${{ secrets.NUGET_API_KEY }} --source https://api.nuget.org/v3/index.json
-    #  if: ${{ github.event_name == 'push' }}
+    - name: Push
+      run: dotnet nuget push src/Elmah.Io.Client.Extensions.Correlation/bin/Release/Elmah.Io.Client.Extensions.Correlation.4.0.${{ github.run_number }}-pre.nupkg --api-key ${{ secrets.NUGET_API_KEY }} --source https://api.nuget.org/v3/index.json
+      if: ${{ github.event_name == 'push' }}
