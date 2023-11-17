@@ -20,6 +20,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 		README.md = README.md
 	EndProjectSection
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Elmah.Io.Client.Extensions.Correlation.AspNetCore80", "samples\Elmah.Io.Client.Extensions.Correlation.AspNetCore80\Elmah.Io.Client.Extensions.Correlation.AspNetCore80.csproj", "{5C13DF06-27FF-47AB-BC8E-D485A33F9389}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -38,6 +40,10 @@ Global
 		{9B6CAB40-9D07-4A03-AE29-79A179D70F92}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9B6CAB40-9D07-4A03-AE29-79A179D70F92}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9B6CAB40-9D07-4A03-AE29-79A179D70F92}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5C13DF06-27FF-47AB-BC8E-D485A33F9389}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5C13DF06-27FF-47AB-BC8E-D485A33F9389}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5C13DF06-27FF-47AB-BC8E-D485A33F9389}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5C13DF06-27FF-47AB-BC8E-D485A33F9389}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -46,6 +52,7 @@ Global
 		{209B4365-28C3-4B91-AAA1-BEEE932B6400} = {6A746078-223B-43C3-8660-C29C936E7523}
 		{926FC9D6-ABC9-4C0D-AAF2-592C2A3A7984} = {666A1FB2-3728-4CDD-B8C7-C0AE52B3F31D}
 		{9B6CAB40-9D07-4A03-AE29-79A179D70F92} = {AF332F6C-6F30-4F40-A99F-A88113E11F43}
+		{5C13DF06-27FF-47AB-BC8E-D485A33F9389} = {AF332F6C-6F30-4F40-A99F-A88113E11F43}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {AA203B4A-970A-44A6-AB4D-A28D566C240C}
