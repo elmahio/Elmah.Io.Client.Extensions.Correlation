@@ -8,19 +8,15 @@ namespace Elmah.Io.Client.Extensions.Correlation.Test
         [Test]
         public void CanGetTraceIdFromActivity()
         {
-            using (var activity = new Activity("ApiCall").Start())
-            {
-                Assert.That(new CreateMessage().WithCorrelationIdFromActivity().CorrelationId, Is.EqualTo(activity.TraceId.ToString()));
-            }
+            using var activity = new Activity("ApiCall").Start();
+            Assert.That(new CreateMessage().WithCorrelationIdFromActivity().CorrelationId, Is.EqualTo(activity.TraceId.ToString()));
         }
 
         [Test]
         public void CanGetTraceIdFromUnstartedActivity()
         {
-            using (var activity = new Activity("ApiCall"))
-            {
-                Assert.That(new CreateMessage().WithCorrelationIdFromActivity().CorrelationId, Is.Null);
-            }
+            using var activity = new Activity("ApiCall");
+            Assert.That(new CreateMessage().WithCorrelationIdFromActivity().CorrelationId, Is.Null);
         }
 
         [Test]
