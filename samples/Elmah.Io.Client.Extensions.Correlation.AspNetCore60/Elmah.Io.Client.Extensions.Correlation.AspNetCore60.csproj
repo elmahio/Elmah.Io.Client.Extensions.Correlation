@@ -7,8 +7,8 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="Elmah.Io.AspNetCore" Version="5.1.66" />
-    <PackageReference Include="Elmah.Io.Extensions.Logging" Version="5.1.53" />
+    <PackageReference Include="Elmah.Io.AspNetCore" Version="5.2.78-pre" />
+    <PackageReference Include="Elmah.Io.Extensions.Logging" Version="5.2.55-pre" />
   </ItemGroup>
 
   <ItemGroup>
