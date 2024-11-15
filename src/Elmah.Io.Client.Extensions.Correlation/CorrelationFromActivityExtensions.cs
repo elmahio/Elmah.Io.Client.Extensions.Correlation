@@ -25,7 +25,7 @@ namespace Elmah.Io.Client.Extensions.Correlation
             }
             catch (Exception e)
             {
-                message.Data ??= new List<Item>();
+                message.Data ??= [];
                 message.Data.Add(new Item("X-ELMAHIO-CORRELATIONERROR", e.Message));
             }
 
