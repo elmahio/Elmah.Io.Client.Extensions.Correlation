@@ -1,0 +1,18 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net9.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Elmah.Io.AspNetCore" Version="5.2.78-pre" />
+    <PackageReference Include="Elmah.Io.Extensions.Logging" Version="5.2.55-pre" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\src\Elmah.Io.Client.Extensions.Correlation\Elmah.Io.Client.Extensions.Correlation.csproj" />
+  </ItemGroup>
+
+</Project>
