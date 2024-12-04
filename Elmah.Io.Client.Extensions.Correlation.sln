@@ -15,11 +15,6 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Elmah.Io.Client.Extensions.
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Elmah.Io.Client.Extensions.Correlation.AspNetCore60", "samples\Elmah.Io.Client.Extensions.Correlation.AspNetCore60\Elmah.Io.Client.Extensions.Correlation.AspNetCore60.csproj", "{9B6CAB40-9D07-4A03-AE29-79A179D70F92}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{1D84DC21-82F4-4FD0-BBB0-49F0F59F90B6}"
-	ProjectSection(SolutionItems) = preProject
-		README.md = README.md
-	EndProjectSection
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Elmah.Io.Client.Extensions.Correlation.AspNetCore80", "samples\Elmah.Io.Client.Extensions.Correlation.AspNetCore80\Elmah.Io.Client.Extensions.Correlation.AspNetCore80.csproj", "{5C13DF06-27FF-47AB-BC8E-D485A33F9389}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Elmah.Io.Client.Extensions.Correlation.AspNetCore90", "samples\Elmah.Io.Client.Extensions.Correlation.AspNetCore90\Elmah.Io.Client.Extensions.Correlation.AspNetCore90.csproj", "{4CBAE34F-B751-4540-BCCA-09B97B2502ED}"
