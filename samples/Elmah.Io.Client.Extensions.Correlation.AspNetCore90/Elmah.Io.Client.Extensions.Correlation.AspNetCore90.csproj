@@ -1,4 +1,4 @@
-<Project Sdk="Microsoft.NET.Sdk.Web">
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
 
   <PropertyGroup>
     <TargetFramework>net9.0</TargetFramework>
@@ -7,8 +7,8 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="Elmah.Io.AspNetCore" Version="5.3.88" />
-    <PackageReference Include="Elmah.Io.Extensions.Logging" Version="5.3.67" />
+    <PackageReference Include="Elmah.Io.AspNetCore" Version="6.0.1-pre" />
+    <PackageReference Include="Elmah.Io.Extensions.Logging" Version="6.0.68-pre" />
   </ItemGroup>
 
   <ItemGroup>
